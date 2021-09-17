@@ -1,0 +1,36 @@
+To the person who is working on this code:
+this was previously programmed by Mira Welner, miraewelner@gmail.com, mewelner@ucdavis.edu
+I am a big beleiver in code karma. If I leave you to work on crappy code with no help, I will inevitably end up trying to work on somebody's legacy pascal. Therefore if you need any help, please email me
+
+This game was developed and can be edited on Unity3d. You can download it here: https://unity3d.com/get-unity/download
+
+There are 7 scripts in this game. They can all be found in the Assets/Scripts folder. They are all very simple except for rocket_behavior which is an ungodly abomination. Don't blame me, blame Unity's unintuitive GameObject methodology (and also me but hey I'm doing this for free alright??)
+
+You will probably want to edit rocket_behavior because that does most of the heavy lifting. I'm guessing you will want to change the way the output is written. Basically they way you do that is go to the times where it says:
+StreamWriter writer = new StreamWriter(path, true);
+writer.WriteLine("Blah blah blah woooooords changeme");
+writer.Close();
+and change that
+
+the sections where it says stuff like:
+if(Input.GetKeyUp(precision_disk))
+
+are tracking when the user inputs a thing. The sections where it says stuff like
+if(positions[randvar] == "MediumWrap")
+
+are tracking when the user is instructed to do a thing. They may or may not actually do it (that's kinda the whole point of what we're testing)
+Another thing you may want to be doing is changing how it gets the inputs. Right now, it gets the inputs from keypresses which is super unintuitive. What it will need to do in the future is get it from a coolass ultrasound thingy. They way you will change that is:
+
+You see at the top of the script where it says:
+KeyCode medium_wrap = KeyCode.Alpha1;
+KeyCode power_sphere = KeyCode.Alpha2;
+KeyCode precision_disk = KeyCode.Alpha3;
+KeyCode prismatic_2_finger = KeyCode.Alpha4;
+KeyCode lateral_tripod = KeyCode.Alpha5;
+KeyCode tripod = KeyCode.Alpha6;
+KeyCode lateral = KeyCode.Alpha7;
+KeyCode light_tool = KeyCode.Alpha8;
+
+that is basically the keycodes it is set equal to. change those. Also, in all the if statements it says Input.GetKeyUp and stuff, you will need to change those two. Tbh I don't really know how, because unity isn't really set to work with ultrasounds. I suspect you will have to convert the ultrasound input to a txt file or a csv and then accept that as input. But it may be slow? idk.
+
+All the hands are pictures of my hand, which you might want to change, the pictures are Assets/Textures/Hand_textures. The sounds are free and dumb, you might want to pay extra for fancy sounds. And the windows exec is under Game_Executable/Final_Version/Prosthetics_Analysis.exe. If you want a mac/linux executable you'll have to make one with unity.

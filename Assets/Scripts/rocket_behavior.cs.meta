@@ -1,0 +1,54 @@
+fileFormatVersion: 2
+guid: 7c4f191c2df804191bef1ae9802f8abc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MediumWrap: {fileID: 2705053995602525049, guid: f8c1ef850dad241a18f7c1560bb04a96,
+      type: 3}
+  - LateralTripod: {fileID: 3489029624069952938, guid: 48c2623179397466f88fa5dbaec114cd,
+      type: 3}
+  - Tripod: {fileID: 4022924414939229506, guid: c8cb6bd3123ec4f13a7ce6969f0220f3,
+      type: 3}
+  - LightTool: {fileID: 6044126957187250520, guid: 9c77dc570a82245fba74c9184e4bfd71,
+      type: 3}
+  - Prismatic2Finger: {fileID: 7925565946295937174, guid: cc0c1f1515caa4bad888c9bedb4e0ec7,
+      type: 3}
+  - PrecisionDisk: {fileID: 8987174694865481530, guid: 779e0eb26a87f44629768b30de476065,
+      type: 3}
+  - Lateral: {fileID: 7909539514763615699, guid: 522fc88ebb5fc4c39b5365a54e4ab852,
+      type: 3}
+  - PowerSphere: {fileID: 5658054771656621095, guid: 1d8b54ebd4c954186bf0c7486a2cdc78,
+      type: 3}
+  - projectile: {fileID: 5739255484012482474, guid: 28b657c4961474fc1ac3eb8952a7d404,
+      type: 3}
+  - shield: {fileID: 2264532082982697013, guid: 5ef6d8323332c4266b48aab26decfef2,
+      type: 3}
+  - greenShip: {fileID: 4049554411222153296, guid: 44ca2b9841c1b47ba8e4e894e48df873,
+      type: 3}
+  - antenna: {fileID: 5198261890990052957, guid: c556135e2c2604e89a76dff88fc436a7,
+      type: 3}
+  - asteriod1: {fileID: 151664, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
+  - asteriod2: {fileID: 141316, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
+  - asteriod3: {fileID: 130102, guid: 04d0bf4be9447154188d86f6e3b8dce9, type: 3}
+  - asteriod4: {fileID: 6875774032594579439, guid: 30d8787ce90b8412bb9a02208aa06899,
+      type: 3}
+  - asteriod5: {fileID: 5764597906901998619, guid: 211930288ae6744a1bf64c7e8ed3cc87,
+      type: 3}
+  - radioSignal: {fileID: 8459638005367810442, guid: 9f64f52951e9343118b9f8c72148ac99,
+      type: 3}
+  - bulletShoot: {fileID: 2688968334556239659, guid: f83816ea83f2345ecac23a13b7bfba1e,
+      type: 3}
+  - shieldUp: {fileID: 8412527595588009796, guid: 9cbdc8fc264964df6b566fe40b1e9ba5,
+      type: 3}
+  - sendRadio: {fileID: 1806310401049504797, guid: 20f4f6b542c3b475299aed15f1a7edf5,
+      type: 3}
+  - anntenaUp: {fileID: 8669273728473342894, guid: 5e82dcc18b4274d2495941a511f26966,
+      type: 3}
+  - movement: {fileID: 3421957124559260463, guid: dac007ee32566408c8f547d3787d6ef6,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
