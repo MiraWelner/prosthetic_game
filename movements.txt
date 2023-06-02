@@ -1,0 +1,31 @@
+MEDIUM WRAP
+LATERAL TRIPOD
+LATERAL
+Medium wrap held for 1.034462 seconds
+Power sphere held for 0.7568951 seconds
+Precision Disk held for 0.8403492 seconds
+Prismatic 2 finger held for 1.888849 seconds
+Lateral Tripod held for 0.2847061 seconds
+TRIPOD
+Tripod held for 0.1697502 seconds
+Later held for 25.33596 seconds
+Light Tool held for 26.40541 seconds
+PRECISION DISK
+Lateral Tripod held for 0.3314605 seconds
+PRECISION DISK
+LATERAL
+TRIPOD
+PRECISION DISK
+LATERAL
+LATERAL
+LATERAL
+Power sphere held for 0.3117065 seconds
+Precision Disk held for 0.3054581 seconds
+Prismatic 2 finger held for 0.1941528 seconds
+PRECISION DISK
+TRIPOD
+LATERAL
+LIGHT TOOL
+Prismatic 2 finger held for 0.4861145 seconds
+Precision Disk held for 0.2224121 seconds
+Power sphere held for 418.9359 seconds
